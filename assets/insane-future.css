@@ -1,0 +1,235 @@
+@font-face {
+	font-family: insane-future-main;
+	src: url(fonts/gothic.ttf);
+}
+
+html,
+body {
+	height: 100%;
+	background-color: black;
+	background-image: url(background.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.text-primary {
+	color: #445DFE;
+}
+
+.if-container {
+	background-color: #141414;
+}
+
+.if-text-primary {
+	color: #F0A632;
+}
+
+.if-top-dropshadow {
+	/*-webkit-box-shadow: 0px -7px 6px 0px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow:    0px -7px 6px 0px rgba(0, 0, 0, 0.75);*/
+	box-shadow:         0px -7px 6px 0px rgba(0, 0, 0, 0.75);
+}
+
+.if-bottom-dropshadow {
+	/*-moz-box-shadow: 0px 7px 6px 0px rgba(0, 0, 0, 0.75);*/
+	box-shadow: 0px 7px 6px 0px rgba(0, 0, 0, 0.75);
+}
+
+.if-footer {
+	background-color: black;
+}
+
+@media (min-width: 768px) {
+	.navbar-nav > li > a {
+		padding: 20px 45px;
+	}
+
+	.navbar-nav > li > a {
+		color: white;
+		font-size: 22px;
+	}
+
+	.if-container {
+		margin-top: 61px;
+	}
+
+	.if-container .if-article h1 {
+		font-size: 48px;
+	}
+}
+
+.if-block {
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.navbar-default {
+	background-color: black;
+	border-color: black;
+}
+
+.navbar-brand {
+	padding-top: 0px;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: white;
+	font-family: insane-future-main;
+	background-color: black;
+	border-color: black;
+}
+
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+	background-color: gray;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+	color: black;
+	background-color: white;
+}
+
+.if-container .if-article {
+
+}
+
+.if-container .if-article h1 {
+	font-size: 52px;
+}
+
+.if-container .if-article small {
+	color: white;
+	font-size: 18px;
+	line-height: 1.1;
+}
+
+.if-container .if-article:first {
+
+}
+
+.if-container .if-article .if-news-image {
+}
+
+.if-container .if-article .text-primary {
+	color: #445DFE;
+}
+
+.if-container .if-article .if-news-header {
+	margin-top: 30px;
+}
+
+.if-container .if-article .if-player {
+	margin-top: 30px;
+}
+
+.if-container .if-article .if-player img {
+	width: 124px;
+	height: 130px;
+}
+
+.if-container .if-article .if-player .if-player-block {
+	font-family: insane-future-main;
+}
+
+.if-container .if-article .if-player .if-player-block h1,
+.if-container .if-article .if-player .if-player-block h2,
+.if-container .if-article .if-player .if-player-block h3 {
+	margin-bottom: 0px;
+}
+
+.if-container .if-article .if-player .if-player-block h1 {
+	margin-top: 10px;
+	font-size: 16px;
+	font-weight: 450;
+}
+
+.if-container .if-article .if-player .if-player-block small {
+	font-size: 10px;
+}
+
+.if-container .if-article .if-player .if-player-block .if-player-info {
+	margin-top: 10px;
+	font-size: 11px;
+	color: white;
+}
+
+.if-container .if-article .if-news-footer {
+	margin-bottom: 30px;
+}
+
+.if-container .if-article .if-news-footer .text-primary {
+	color: #F7A92A;
+}
+
+.if-container .if-article .if-news-footer h1,
+.if-container .if-article .if-news-footer h2,
+.if-container .if-article .if-news-footer h3 {
+	font-family: insane-future-main;
+}
+
+.if-container .if-article .if-news-footer h1 {
+	font-size: 44px;
+}
+
+.if-container .if-article .if-news-footer small {
+	font-size: 12px;
+}
+
+
+/*.affix {
+	display: block;
+	top: 100px;
+	right: 60px;
+}
+
+.affix-top {
+	display: block;
+	top: 200px;
+	right: 60px;
+}
+
+.affix-bottom {
+	display: block;
+	top: 100px;
+	right: 60px;
+}
+
+.onpage-nav {
+	display: block;
+	position: fixed !important;
+	top: 200px;
+	right: 60px;
+}
+
+.onpage-nav > ul {
+	list-style: none !important;
+}
+
+.onpage-nav > ul > li {
+	display: list-item;
+	width: 32px;
+	height: 39px;
+}
+
+.onpage-nav > ul > li:hover,
+.onpage-nam > ul > li:focus {
+	color: #333;
+}
+
+.onpage-nav > ul > li.active {
+	color: #333;
+}
+
+.onpage-nav > ul > li.selected {
+	color: #333;
+}
+
+.onpage-nav > ul > li > a > i {
+	display: block;
+	border-radius: 50%;
+	width: 16px;
+	height: 16px;
+	border: 2px solid white;
+}*/

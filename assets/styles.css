@@ -1,0 +1,95 @@
+html,
+body {
+	height: 100%;
+	background-color: black;	
+}
+
+.navbar-default {
+	background-color: black;
+	border-color: black;
+}
+
+/*.navbar-nav>li>a {
+}*/
+@media (min-width: 768px) {
+	.navbar-nav > li > a {
+		padding: 25px 30px;
+	}
+
+	div.if-main-content {
+		margin-top: 72px;
+	}
+}
+
+.navbar-brand {
+	padding-top: 5px;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: white;
+	font-size: 36px;
+	text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+	color: white;
+	background-color: black;
+}
+
+.affix {
+	display: block;
+	top: 100px;
+	right: 60px;
+}
+
+.affix-top {
+	display: block;
+	top: 200px;
+	right: 60px;
+}
+
+.affix-bottom {
+	display: block;
+	top: 100px;
+	right: 60px;
+}
+
+/*.onpage-nav {
+	display: block;
+	position: fixed !important;
+	top: 200px;
+	right: 60px;
+}*/
+
+.onpage-nav > ul {
+	list-style: none !important;
+}
+
+.onpage-nav > ul > li {
+	display: list-item;
+	width: 32px;
+	height: 39px;
+}
+
+.onpage-nav > ul > li:hover,
+.onpage-nam > ul > li:focus {
+	color: #333;
+}
+
+.onpage-nav > ul > li.active {
+	color: #333;
+}
+
+.onpage-nav > ul > li.selected {
+	color: #333;
+}
+
+.onpage-nav > ul > li > a > i {
+	display: block;
+	border-radius: 50%;
+	width: 16px;
+	height: 16px;
+	border: 2px solid white;
+}
